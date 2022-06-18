@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CafeLetras/static/css/main.5677b631.css",
+    "main.css": "/CafeLetras/static/css/main.f9c0e7fc.css",
     "main.js": "/CafeLetras/static/js/main.bbf4ab4e.js",
     "static/media/slide_1.jpg": "/CafeLetras/static/media/slide_1.74b37c47cc1569489d34.jpg",
     "static/media/slide_3.jpg": "/CafeLetras/static/media/slide_3.7105fb50778b61abd77f.jpg",
@@ -125,11 +125,11 @@
     "static/media/Mask group.svg": "/CafeLetras/static/media/Mask group.b7205992645c44b5f23d43f858a04510.svg",
     "static/media/Mask group (1).svg": "/CafeLetras/static/media/Mask group (1).34afe78f2e908005100ba55dc57bbcba.svg",
     "static/media/line.svg": "/CafeLetras/static/media/line.b31e8c89e4c6c585344efee1288ec0b7.svg",
-    "main.5677b631.css.map": "/CafeLetras/static/css/main.5677b631.css.map",
+    "main.f9c0e7fc.css.map": "/CafeLetras/static/css/main.f9c0e7fc.css.map",
     "main.bbf4ab4e.js.map": "/CafeLetras/static/js/main.bbf4ab4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5677b631.css",
+    "static/css/main.f9c0e7fc.css",
     "static/js/main.bbf4ab4e.js"
   ]
 }
