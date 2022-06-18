@@ -20,7 +20,8 @@
     text-align: center;
     font-weight: 700;
     color: var(--cafe);
-    padding: 1.5rem;
+    padding: 0.5rem;
+    height: 5rem;
 }
 @media screen and (max-width: 500px){
     .product-list{

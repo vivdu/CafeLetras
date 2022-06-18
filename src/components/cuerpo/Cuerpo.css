@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body.cuerpo{
+    background-color: var(--crema);
+    font-family: 'Roboto', sans-serif;
+    background-image: none;
+
+}
+.card{
+    grid-area: card;
+    background-image: url(../cuerpo/userdondo.png);
+    background-size: cover;
+    display: flex;
+    width: 92%;
+    justify-self: center;
+    height: 230px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 35px 53px;
+
+}
+.card-img{
+    position: relative;
+    top: 30px;
+    width: 100px;
+}
+
+.card-text, .card-body p{
+    font-family: 'Roboto', sans-serif;
+    color:var(--crema) ;
+    text-align: center;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--verdeoscuro);
+    width: 100%;
+    height: 160px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.card-body h2{
+    color: var(--crema)
+}
+
+.card-body p{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: center;
+
+}
+.contenido{
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+.contenido h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #41341F;
+    margin: 25px;
+    padding: 16px;
+    border-bottom: 2px solid var(--verdeoscuro);
+    
+}
+.contenido p{
+    font-family: 'Roboto', sans-serif;
+    color: #41341F;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.contenido{
+    background-color: rgb(242, 238, 192);
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 1px 3px 1px rgb(149, 145, 145); 
+      
+}
+
+.contenido:hover{
+    margin-top: 20px;
+    animation: up 1s normal 0.5s 1 normal linear running;
+    cursor: pointer;
+    
+}
+
+@keyframes up {
+    0%{ margin-bottom: 0;}
+    50%{ margin-bottom: 20px;}
+}
+.pharase h3{
+    text-align: center;
+    border-bottom: 2px solid var(--cafe);
+}
+
+.card_pharase_one{
+    background-color: var(--verdeoscuro);
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--crema);
+}
+.card_pharase_one p{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card_pharase_two{
+    background-color: var(--verdeclaro);
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cafe);
+}
+.card_pharase_two p{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card_pharase_three{
+    background-color: rgba(174, 172, 172, 0.572);
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cafe);
+    cursor: pointer;
+}
+.card_pharase_three:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #F1D6AB,
+       #a8b49f, 
+       #bfc9bd,
+       #F1D6AB,
+       #d2e0c8,
+       #a5ce9a,
+       #F1D6AB
+     );
+   animation:slidebg 3s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+
+.card_pharase_three p{
+    padding: 45%;
+    text-align: center;
+    align-items: center;
+    font-size:70px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+
+    .title img{
+        width: 60%;
+        padding-left: 6%;
+    }   
+    
+    .contenido h3{
+        font-size: 20px;
+    }    
+    .contenido{
+        width: 580px;
+    }
+    .contenido{
+        font-size: 20px;
+    }
+    .card_pharase_one, .card_pharase_two{
+        width: 580px;
+    }
+    .card_pharase_one p, .card_pharase_two p{
+        font-size: 17px;
+    }
+    
+    .card_pharase_three{
+        height: 72px;
+        width: 580px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+   
+   
+   .contenido{
+       display: flex;
+      
+   }
+   .card-pharase-three{
+       text-align: left;
+       margin: 5px;
+   }
+   .card-pharases{
+       display: flex;
+       justify-content: flex-start;
+       width: 1200px;
+       margin-left: 52px;
+       margin-top:2rem ;
+    }
+    
+
+    label img{
+    display: none;
+    }
+        
+    .items{
+        width: 100%;
+        color: #2e3b08;
+        display: block;
+        display: flex;
+        padding: 1.5rem;
+        text-decoration: none;
+        background-color: var(--verdeclaro);
+        justify-content: space-around;
+    }
+        
+    .item:hover{
+        color: var(--crema);
+    }
+        
+    .card-img{
+        top: 20%;
+        right: 38%;
+        width: 150px;
+    }
+    .card-body {
+        align-items: flex-start;
+        padding-left: 19rem;
+        line-height: 40px;  
+    }
+    .card-body p{
+        font-size: 20px;
+    } 
+    .contenido {
+        width:480px;
+    }
+    .contenido{
+        width: 580px;
+
+    }
+    .card_pharase_one ,.card_pharase_two, .card_pharase_three{
+        width: 280px;
+        height: 300px;
+    }
+}
+

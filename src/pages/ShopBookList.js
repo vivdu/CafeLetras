@@ -30,8 +30,6 @@ function ShopBookList(){
         <Provider store={store}>
         <ShopList />
         </Provider>
-        <Footer />
-        <Subfooter/>
         </main>
     )
 }

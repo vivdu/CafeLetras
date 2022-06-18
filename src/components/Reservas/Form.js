@@ -2,8 +2,6 @@ import Input from './Inputs';
 import './reserva.css'
 import React, {useState} from 'react';
 import {Formulario, Label, ContenedorTerminos, ContenedorBotonCentrado, Boton, MensajeExito, MensajeError} from './formcss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import ModalReserva from './ModalReserva';
 
 const FormReserva = () => {

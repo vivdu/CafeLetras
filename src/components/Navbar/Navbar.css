@@ -59,13 +59,13 @@
 
 /*Navbar*/
 
-.wrapper{
+.wrapper-nav{
     background: #B4C6A6;
     position: absolute;
     z-index: 2;
     width: 100%;
 }
-.wrapper nav{
+.wrapper-nav nav{
     position: relative;
     display: flex;
     margin: 0 auto;
@@ -108,7 +108,7 @@ nav .content .links{
     --transform: rotate(90deg) ;
 }
 
-.wrapper .menu-icon{
+.wrapper-nav .menu-icon{
     position: absolute;
     left: 75%;
     color: #38470B;
@@ -118,27 +118,27 @@ nav .content .links{
     width: 70px;
     text-align: center;
 }
-.wrapper .menu-icon{
+.wrapper-nav .menu-icon{
     display: none;
 }
 
-.wrapper .icon-shop{
+.wrapper-nav .icon-shop{
     position: absolute;
     left: 67%;
 }
 
-.wrapper .icon-shop{
+.wrapper-nav .icon-shop{
     display: none;
 }
 
 
-.wrapper nav .icon-shop i{
+.wrapper-nav nav .icon-shop i{
     color: #38470B;
     font-size: 22px;
     
 }
 
-.wrapper input[type="checkbox"]{
+.wrapper-nav input[type="checkbox"]{
     display: none;
 }
 
@@ -168,7 +168,6 @@ nav .content .links{
 }
 
 i{
-
     transform: var(--transform);
 }
 
@@ -301,14 +300,14 @@ i{
 }
 
 @media screen and (max-width: 700px){
-    .wrapper .menu-icon{
+    .wrapper-nav .menu-icon{
         display: block;
         }
     
-        .wrapper .icon-shop{
+        .wrapper-nav .icon-shop{
             display: initial;
         }
-        .wrapper #show-menu:checked ~ .menu-icon i::before{
+        .wrapper-nav #show-menu:checked ~ .menu-icon i::before{
         content: "\f00d";
         }
         nav .content .links{
@@ -391,7 +390,7 @@ i{
 
   /* Responsive code start */
   @media screen and (min-width: 1024px){
-    .wrapper nav{
+    .wrapper-nav nav{
     max-width: 100%;
     padding: 0 20px;
     }

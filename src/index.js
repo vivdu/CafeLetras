@@ -14,11 +14,16 @@ import InputShop from './pages/InputShop';
 import PayBook from './pages/PayBook';
 import Reservas from './pages/Reservas';
 
+import Usuario from './pages/Usuario';
+import Login from './components/login/Login';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
     <Route path='/CafeLetras/' element={<Home />}></Route>
+    <Route path='/login' element={<Login />}></Route>
+    <Route path='/usuario' element={<Usuario />}></Route>
     <Route path='/reservas' element={<Reservas />}></Route>
     <Route path='/tienda' element={<ShopBookList />}></Route>
     <Route path='/tienda/login' element={<InputShop />}></Route>

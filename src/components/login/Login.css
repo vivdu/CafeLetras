@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --crema:  rgb(255, 254, 242);
+    --beige: #F1D6AB;
+    --rosa: #E2C2B9;
+    --verdeclaro: #B4C6A6;
+    --verdeoscuro: #38470B;
+    --cafe: #41341F;
+    --cafeclaro: #A0855B;
+}
+
+
+.fondo{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../login/foto1\ \(2\).jpg);
+}
+
+.pass-two{
+    color: #F1D6AB;
+    text-decoration: none;
+    text-align: center;
+}
+.wrapper{
+    grid-area: wrapper;
+    background: #aa936fc4;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin: 90px 20px;
+}
+
+.wrapper .title{
+    line-height: 120px;
+    background: #fffdde7a;  
+    border-radius: 15px 15px 0px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title img{
+    width: 80%;
+    padding-left: 8%;
+}
+.wrapper form{
+    padding: 0px 20px 25px 20px;
+    margin: 10px 5px 10px 5px ;
+}
+.wrapper h1{
+    text-align: center;
+    margin:30px;
+    font-size: 23px;
+    color: #FFFDDE;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.row{
+    height: 45px;    
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.wrapper form .row{
+    height: 45px;    
+    margin-bottom: 30px;
+    position: relative;
+}
+.row input{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 84%;
+    outline: none;
+    padding-left:60px ;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    margin-left: 35px;
+}
+
+.wrapper i{
+    position: relative;
+    width: 47px;
+    height: 100%;
+    color: var(--beige);
+    font-size: 18px;
+    background: #38470B;
+    border: 1px solid #38470B;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -45px;
+    margin-left: 18px;
+}
+
+.wrapper .pass{
+    text-align: center;
+    margin: 12px 0 15px 0;
+}
+
+.wrapper form {
+    font-family: 'Roboto', sans-serif;
+    color:#FFFDDE;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .button {
+    color: #FFFDDE;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 0px;
+    border-radius: 5px;
+    cursor:pointer;
+    height: 10px;
+}
+
+
+.btn-verde{
+    color:var(--beige);
+    background: #38470B;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.5rem 10px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 30%;
+
+}
+.btn-verde a{
+    text-decoration: none;
+    color: #F1D6AB;
+}
+.btn-verde:hover{
+    background:linear-gradient(#38470B, #526616);
+    transition: all 1s ease 1s;
+}
+@media screen and (max-width:768px) and (min-width:128px) {
+    .btn-verde{
+        width: 45%;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .btn-verde{
+        width: 45%;
+    }
+    
+
+    .title img{
+        width: 60%;
+        padding-left: 6%;
+    }   
+    
+
+}
+
+@media screen and (min-width:1024px) {
+    .container{
+        grid-template-areas: 
+        "header-one"
+        "header-second"
+        "wrapper"
+        
+    }
+    .title img{
+        display: unset;
+    }
+
+    .wrapper{
+        max-width: 440px;
+        position: relative;
+        left: 20%;
+    }
+    .btn-verde{
+        width: 45%;
+    }
+
+    .wrapper{
+        width: 100%;
+        position: relative;
+        left: 57%;
+        height: 35rem;
+    }
+    
+    
+    label img{
+        display: none;
+    }
+   
+    .items{
+        width: 100%;
+        color: #2e3b08;
+        display: block;
+        display: flex;
+        padding: 1.5rem;
+        text-decoration: none;
+        background-color: var(--verdeclaro);
+        justify-content: space-around;
+    }
+    
+    .item:hover{
+        color: var(--verdeclaro);
+    }
+    
+    .boton2{
+        background-color: #38470B;
+        color:var(--crema);
+        border-radius: 5px;
+        margin:0px 0px 0px -5px;
+        height: 22px;
+    }
+
+    
+}

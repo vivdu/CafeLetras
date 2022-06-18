@@ -2,7 +2,7 @@ import Input from './Inputs';
 import './CompraCss.css';
 import React from 'react';
 import { useState } from 'react';
-import {Formulario, Label, ContenedorTerminos, ContenedorBotonCentrado, Boton, MensajeExito, MensajeError} from './formcss';
+import {Formulario, Label, ContenedorTerminos, ContenedorBotonCentrado, MensajeExito, MensajeError} from './formcss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';

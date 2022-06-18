@@ -6,7 +6,7 @@ function Nabvar (){
 return(
 
 
-<div class="wrapper">
+<div class="wrapper-nav">
     <nav>
     <div className='icon-shop'><i class="fa-solid fa-cart-shopping"></i></div>
       <input type="checkbox" id="show-menu"></input>
