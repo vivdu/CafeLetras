@@ -40,6 +40,10 @@ color: #B4C6A6;
     grid-area: foot4;
 }
 
+.foot3 i{
+    padding: 0.3rem;
+}
+
 .hr-foot{
     margin: 10px;
 }
@@ -52,29 +56,19 @@ color: #B4C6A6;
 }
 .foot2 a{
 color: #B4C6A6;
+text-decoration: none;
 }
 
 
-.foot a {
+.foot a{
     text-decoration: none;
     color: #B4C6A6;
     line-height: 25px;
 }
-.parte-abajo{
-    grid-area: parte-abajo;
-    background-color: #B4C6A6;
-    color: #38470B;
-    width: 100%;
-    height: 100px;
-    line-height: 30px;
-    padding: 5px 27px;
-}
+
 
 
 @media screen and (min-width:1024px) {
-
-    
-
     .footer{
         grid-template-areas:
         "foot1 foot2 foot4 foot3"
@@ -96,10 +90,4 @@ color: #B4C6A6;
     .foot2 h4 , .foot3 h4, .foot4 h4{
         border-bottom: 2px solid #B4C6A6;
     } 
-
-.parte-abajo{
-        display: flex;
-        justify-content: space-between;
-        height: 50px;
-    }    
 }

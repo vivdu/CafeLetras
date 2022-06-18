@@ -8,7 +8,7 @@ const colores = {
 }
 
 const Formulario = styled.form`
-	margin: 0 auto;
+	margin: 3rem auto;
 	max-width: 800px;
     background-color: rgba(0,0,0,0.6);
     padding: 3rem;

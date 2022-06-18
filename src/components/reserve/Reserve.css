@@ -1,0 +1,30 @@
+#reserve{
+    background: #FFFDDE;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+#reserve i{
+    padding: 1rem;
+    border-radius: 50%;
+    background: #38470B;
+    color: #B4C6A6;
+    margin-right: 1rem;
+}
+
+.reserve-p h4{
+    margin-bottom: 10px;
+    color: #38470B;
+}
+
+.reserve-p a{
+    text-decoration: underline;
+    color: #38470B;
+}
+
+@media screen and (min-width:1024px) {
+    #reserve{
+        display: none;
+    }
+}

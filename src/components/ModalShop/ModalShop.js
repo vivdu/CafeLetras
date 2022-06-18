@@ -21,7 +21,7 @@ function ModalShop ({ setIsOpen }) {
               <button className={styles.deleteBtn} onClick={() => setIsOpen(false)}>
                 Cerrar
               </button>
-              <Link to="/"><button
+              <Link to="/CafeLetras/"><button
                 className={styles.cancelBtn}
                 onClick={() => setIsOpen(false)}>
                 Ir al inicio

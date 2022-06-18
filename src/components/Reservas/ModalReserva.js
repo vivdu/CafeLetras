@@ -19,7 +19,7 @@ function ModalReserva ({ setIsOpen }) {
           <div className={styles.modalActions}>
             <div className={styles.actionsContainer}>
               
-              <Link to="/"><button
+              <Link to="/CafeLetras/"><button
                 className={styles.cancelBtn}
                 onClick={() => setIsOpen(false)}>
                 Ir al inicio

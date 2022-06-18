@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import Header from '../components/header/Header';
+import Nabvar from '../components/navbar/Nabvar';
+import Footer from '../components/footer/Footer';
+import Subfooter from '../components/subfooter/Subfooter';
 import { Provider } from 'react-redux';
 import { combineReducers, legacy_createStore } from 'redux';
 import cartReducer from '../ducks/cart';
@@ -25,11 +26,12 @@ function ShopBookList(){
     return (
         <main>
         <Header />
-        <Navbar />
+        <Nabvar />
         <Provider store={store}>
         <ShopList />
         </Provider>
         <Footer />
+        <Subfooter/>
         </main>
     )
 }
