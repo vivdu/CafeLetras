@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CafeLetras/static/css/main.5f959e6a.css",
+    "main.js": "/CafeLetras/static/js/main.241bb2f5.js",
+    "static/media/wallpaper.webp": "/CafeLetras/static/media/wallpaper.69ab0be87ce597cba20c.webp",
+    "static/media/logofooter.svg": "/CafeLetras/static/media/logofooter.a8a33a6e5f7cb39218bc1543f834292e.svg",
+    "static/media/logotipo.svg": "/CafeLetras/static/media/logotipo.26f289431362b7a069a55c61aa865402.svg",
+    "index.html": "/CafeLetras/index.html",
+    "static/media/logo.svg": "/CafeLetras/static/media/logo.50a732524c124e4826311a1eba2e4903.svg",
+    "main.5f959e6a.css.map": "/CafeLetras/static/css/main.5f959e6a.css.map",
+    "main.241bb2f5.js.map": "/CafeLetras/static/js/main.241bb2f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f959e6a.css",
+    "static/js/main.241bb2f5.js"
+  ]
+}
