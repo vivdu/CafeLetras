@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CafeLetras/static/css/main.3f10e9d2.css",
-    "main.js": "/CafeLetras/static/js/main.f921826e.js",
+    "main.css": "/CafeLetras/static/css/main.5677b631.css",
+    "main.js": "/CafeLetras/static/js/main.1e4fd77f.js",
     "static/media/slide_1.jpg": "/CafeLetras/static/media/slide_1.74b37c47cc1569489d34.jpg",
     "static/media/slide_3.jpg": "/CafeLetras/static/media/slide_3.7105fb50778b61abd77f.jpg",
     "static/media/slide_4.jpg": "/CafeLetras/static/media/slide_4.4f6e45cacc315812cf20.jpg",
@@ -113,11 +113,11 @@
     "static/media/Group 131.png": "/CafeLetras/static/media/Group 131.7906439fc803dc1fb191.png",
     "static/media/Group 142.png": "/CafeLetras/static/media/Group 142.852aaefa19f09ff437f5.png",
     "static/media/Rectangle 94 (3).png": "/CafeLetras/static/media/Rectangle 94 (3).62d24b4938b3ae507a59.png",
+    "static/media/usuariofoto.png": "/CafeLetras/static/media/usuariofoto.f957c0172334518ea1b9.png",
     "static/media/Rectangle 94 (2).png": "/CafeLetras/static/media/Rectangle 94 (2).597b4d0b086a0d0342b2.png",
     "static/media/Rectangle 94 (1).png": "/CafeLetras/static/media/Rectangle 94 (1).e0d05a3f1ec8762dedbe.png",
     "static/media/Rectangle 69 (1).png": "/CafeLetras/static/media/Rectangle 69 (1).63281d5d4660d81b3718.png",
     "static/media/Rectangle 94.png": "/CafeLetras/static/media/Rectangle 94.6c27dc0ec40f8271f37b.png",
-    "static/media/usuariofoto.png": "/CafeLetras/static/media/usuariofoto.e898df126d1d786f5ebf.png",
     "static/media/logofooter.svg": "/CafeLetras/static/media/logofooter.a8a33a6e5f7cb39218bc1543f834292e.svg",
     "static/media/logotipo.svg": "/CafeLetras/static/media/logotipo.620f6b4427cac93e634495b36f93e9be.svg",
     "static/media/Mask group (5).svg": "/CafeLetras/static/media/Mask group (5).050a6bfedf35cc7101dd57ccc83180ed.svg",
@@ -125,11 +125,11 @@
     "static/media/Mask group.svg": "/CafeLetras/static/media/Mask group.b7205992645c44b5f23d43f858a04510.svg",
     "static/media/Mask group (1).svg": "/CafeLetras/static/media/Mask group (1).34afe78f2e908005100ba55dc57bbcba.svg",
     "static/media/line.svg": "/CafeLetras/static/media/line.b31e8c89e4c6c585344efee1288ec0b7.svg",
-    "main.3f10e9d2.css.map": "/CafeLetras/static/css/main.3f10e9d2.css.map",
-    "main.f921826e.js.map": "/CafeLetras/static/js/main.f921826e.js.map"
+    "main.5677b631.css.map": "/CafeLetras/static/css/main.5677b631.css.map",
+    "main.1e4fd77f.js.map": "/CafeLetras/static/js/main.1e4fd77f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f10e9d2.css",
-    "static/js/main.f921826e.js"
+    "static/css/main.5677b631.css",
+    "static/js/main.1e4fd77f.js"
   ]
 }
